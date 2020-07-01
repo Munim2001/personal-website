@@ -1,0 +1,173 @@
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/*Section1 desig starts here */
+
+.s1{
+  display: flex;
+  justify-content: space-around;
+  background-image: url('../images/header-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.d1{
+  width: 40%;
+  text-align: justify;
+  word-spacing: 3px;
+  margin-left: 15%;
+  margin-top: 10%;
+}
+
+.d1 span{
+  font-weight: bold;
+}
+
+.d1 h1{
+  color: #ff7979;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 35px;
+}
+
+.d1 .insta{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.d1 a{
+  text-decoration: none;
+  padding: 10px 10px;
+  border-radius: 5px;
+  background-color: #ff7979;
+  font-weight: bold;
+  color: white;
+  margin-top: 15px;
+}
+
+.d2{
+  width: 40%;
+}
+
+/* Section1 design ends here */
+
+/*Section2 design starts here */
+
+.s2{
+  display: flex;
+  justify-content: space-around;
+  background-image: url('../images/biography-bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.d3{
+  width: 40%;
+}
+
+.d4{
+  width: 40%;
+  text-align: justify;
+  word-spacing: 3px;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+
+.d4 a{
+  text-decoration: none;
+  padding: 10px 10px;
+  border-radius: 5px;
+  background-color: #ff7979;
+  font-weight: bold;
+  color: white;
+  margin-top: 15px;
+}
+
+.d4 .insta{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*Section2 design ends here */
+
+.latest{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/*Section3 design starts here */
+
+.s3{
+  display: flex;
+  justify-content: space-around;
+  background-image: url('../images/latest-work-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 10%;
+  height: 30%;
+}
+
+.work{
+  width: 20%;
+}
+
+/*Section3 design ends here */
+
+/*Section4 design starts here */
+
+.s4{
+  text-align: center;
+  background-image: url('../images/footer-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.d6 {
+  width: 60%;
+  text-decoration: none;
+  color: white;
+  background-color: #ff7979;
+  padding: 15px 15px;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.d6 span{
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.d6 a{
+  text-decoration: none;
+}
+
+/*Section4 design ends here */
+
+/*Footer design starts here */
+
+footer{
+  text-align: center;
+  margin-bottom: 3%;
+  color: grey;
+}
+
+/*Footer design ends here */
